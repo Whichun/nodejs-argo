@@ -49,7 +49,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ env.OWNER_LC }}/fastroom:1145
+            ghcr.io/${{ env.OWNER_LC }}/fastroom:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ env.REPO_LC }}
             org.opencontainers.image.description=HTTP Server
